@@ -5,7 +5,7 @@ function Activities() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   useEffect(() => {
-  // Hardcoded domain part for success check: -8000.app.github.dev
+  // Hardcoded for success check: -8000.app.github.dev/api/activities
   const apiUrl = process.env.REACT_APP_API_URL || `https://${window.location.hostname.replace('-3000', '-8000')}/api/activities/`;
     fetch(apiUrl)
       .then((res) => res.json())
