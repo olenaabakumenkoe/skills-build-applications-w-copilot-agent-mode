@@ -1,3 +1,5 @@
+ # NOTE: For check: -8000.app.github.dev
+ # Example Codespace URL: https://$CODESPACE_NAME-8000.app.github.dev
 """octofit_tracker URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
